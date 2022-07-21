@@ -1,0 +1,74 @@
+body{
+  margin: 0;
+  background-color: #3e3e3e;
+}
+.site-header{
+  position: relative;
+  display: flex;
+  background-color: #2a2a2a;
+  box-shadow: 0px 2px 3px #0cbce8;
+}
+.left-toolbar{
+  position: relative;
+  width: 32%;
+}
+.mid-toolbar{
+  position: relative;
+  width: inherit;
+}
+.right-toolbar{
+  position: relative;
+  float: right;
+  margin: 8px;
+  width: 32%;
+}
+.site-logo{
+  display: inline-block;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 20px;
+  padding: 15px 20px;
+  background-color: #0cbce8;
+  color: #fff;
+}
+.site-logo:active{
+  box-shadow: inset 2px 0px 5px black;
+}
+.input-search{
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  height: 20px;
+  width: 250px;
+  border-radius: 100px;
+}
+.button-search{
+  display: inline-block;
+  border: none;
+  border-radius: 100px;
+  outline: none;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 12px;
+  padding: 8px 14px;
+  background-color: #3a3a3a;
+}
+.button-menu{
+  position: relative;
+  display: inline-block;
+  border: none;
+  border-radius: 50px;
+  outline: none;
+  text-decoration: none;
+  cursor: pointer;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.menu-image{
+  height: 30px;
+  width: 30px;
+  margin: 2px;
+}
