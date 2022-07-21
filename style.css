@@ -24,7 +24,7 @@ body{
   width: 32%;
 }
 .site-logo{
-  display: inline-block;
+  display: inline-flex;
   border: none;
   outline: none;
   text-decoration: none;
@@ -40,14 +40,14 @@ body{
 }
 .input-search{
   position: relative;
-  display: inline-block;
+  display: inline-flex;
   text-decoration: none;
   height: 20px;
   width: 250px;
   border-radius: 100px;
 }
 .button-search{
-  display: inline-block;
+  display: inline-flex;
   border: none;
   border-radius: 100px;
   outline: none;
@@ -59,7 +59,7 @@ body{
 }
 .button-menu{
   position: relative;
-  display: inline-block;
+  display: inline-flex;
   border: none;
   border-radius: 50px;
   outline: none;
